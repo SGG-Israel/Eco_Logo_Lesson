@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
+}
+.merri {
+  font-family: "Merriweather", serif;
+}
+.ubuntu {
+  font-family: "Ubuntu", sans-serif;
+}
+.flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.p10 {
+  padding: 10px;
+}
+.p5 {
+  padding: 5px;
+}
+.m5 {
+  margin: 5px;
+}
+.m10 {
+  margin: 10px;
+}
+.my {
+  margin: auto 0;
+}
+.mx {
+  margin: 0 auto;
+}
+.m {
+  margin: auto auto;
+}
+.align {
+  align-items: center;
+}
+.jcc {
+  justify-content: center;
+}
+.jcsa {
+  justify-content: space-around;
+}
+.text-center {
+  text-align: center;
+}
+.eco_logo {
+  justify-content: left;
+  padding: 10px 5px 10px 20px;
+  font-size: 22px;
+}
+.eco_logo p {
+  font-weight: 800;
+}
+.main_container {
+  background-image: url(../background-img/water_on_green.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  justify-content: space-around;
+  padding: 20px;
+}
+.main_left h2,
+.main_left p {
+  display: block;
+  color: white;
+  background-color: black;
+}
+.main_left h2 {
+  font-weight: 500;
+  padding: 10px 20px;
+}
+.main_right {
+  background-color: rgb(255, 255, 251);
+  height: 300px;
+  width: 300px;
+}
+input[type="submit"] {
+  background-color: #159b2a;
+  color: white;
+  border: none;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  padding: 10px 0;
+  font-size: 16px;
+}
+input {
+  width: 220px;
+}
+
+.card a img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.card {
+  text-align: center;
+}
+.card a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.card:hover {
+  background-color: rgba(0, 0, 0, 0.078);
+  border-radius: 10px;
+}
+.about_these {
+  margin-top: 20px;
+}
+.cards {
+  padding: 10px;
+  margin-top: 30px;
+}
+.card {
+  width: 350px;
+}
+
+.about_company {
+  background-color: #f0e8e5;
+  padding: 20px;
+}
+.card_blog1 img,
+.card_blog2 img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.Our_best_employee {
+  margin-top: 30px;
+}
+.Our_best_employee h1 {
+  font-weight: 900;
+}
+.card_blog1_border {
+  border-right: 3px solid grey;
+}
+.footer {
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  padding: 0 10px;
+}
+.footer > p {
+  font-size: small;
+}
+@media screen and (max-width: 946px) {
+  .main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+  }
+  .main_left {
+    margin: 10px;
+  }
+  .main_left h2 {
+    margin-top: 20px;
+  }
+  .main_right {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  .cards {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .Our_best_employee {
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer > p {
+    justify-content: center;
+    font-size: 10px;
+  }
+  .card_blog1_border {
+    border: none;
+  }
+}
